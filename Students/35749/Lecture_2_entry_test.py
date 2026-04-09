@@ -1,15 +1,13 @@
-my_birthday = 1
-print(my_birthday)
-print(type(my_birthday))
+class Cars:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+    
+c1 = Cars("Ferrari", "F50")
+c2 = Cars("Audi", "A5")
 
-my_name = "muhsin arsu"
-print(my_name)
-print(type(my_name))
+print(c1.brand)
+print(c1.model)
 
-my_grade = 4.5
-print(my_grade)
-print(type(my_grade))
-
-converted_grade = int(my_grade)
-print(converted_grade)
-print(type(converted_grade))
+print(c2.brand)
+print(c2.model)
